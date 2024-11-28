@@ -112,8 +112,8 @@ class EmojiEditorState extends State<EmojiEditor>
             emojiSizeMax: 32,
             replaceEmojiOnLimitExceed: false,
           ),
-      swapCategoryAndBottomBar:
-          imageEditorTheme.emojiEditor.swapCategoryAndBottomBar,
+      // swapCategoryAndBottomBar:
+      //     imageEditorTheme.emojiEditor.swapCategoryAndBottomBar,
       skinToneConfig: imageEditorTheme.emojiEditor.skinToneConfig,
       categoryViewConfig: imageEditorTheme.emojiEditor.categoryViewConfig ??
           CategoryViewConfig(
